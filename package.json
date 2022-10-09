@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "description": "Enable prismjs library to be imported using ES6 syntax",
   "main": "prism.js",
+  "type": "module",
   "scripts": {
     "build": "npm run clean && npm run cp:themes && npm run cp:components",
     "clean": "npx rimraf ./themes && npx rimraf ./components",
